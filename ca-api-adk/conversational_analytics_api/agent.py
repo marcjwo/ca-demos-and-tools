@@ -116,7 +116,6 @@ def get_insights(question: str):
         response["data_insights"] = data_insights
     if chart_insights:
         response["chart_insights"] = chart_insights
-    print(response)
     return response
 
 # Agent to get data insights
